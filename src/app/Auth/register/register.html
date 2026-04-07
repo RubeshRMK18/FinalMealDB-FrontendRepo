@@ -1,0 +1,8 @@
+<form action="">
+    <label for="username">Username</label>
+    <input type="text" id="username" [(ngModel)]="formData.username">
+    <label for="password">Password</label>
+    <input type="password" id="password" [(ngModel)]="formData.password">
+    <button type="submit" (click)="Register(formData)">Register</button>
+</form>
+
