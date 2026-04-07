@@ -53,5 +53,10 @@ export class AuthService {
   {
     return this.getUserRole() === 'admin';
   }
+
+  isuser()
+  {
+    return this.getUserRole() === 'user';
+  }
 }
 
